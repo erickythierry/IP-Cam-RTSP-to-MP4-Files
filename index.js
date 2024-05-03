@@ -10,8 +10,8 @@ import './cronRestartScript.js'
 // import sendFile from './rclone-onedrive.js'
 import uploadFile from './onedrive.js'
 
-const segmentTimeSize = 10
-const uploadLoop = 5000
+const segmentTimeSize = 300
+const uploadLoop = 10000
 const url = 'rtsp://suaHostRTSP'
 const folderPath = './';
 let processedFiles = [];
