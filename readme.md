@@ -25,11 +25,13 @@ O código inicia o FFMPEG, e fica monitorando os arquivos gerados para enviar pa
 
 ### Serviços atualmente suportados:
 - Telegram
+</br>
 Inicialmente cogitei usar o Telegram como armazenamento de gravações. Funciona bem, o player do app é muito bom, porém achei problemática a velocidade de download dos arquivos e o formato de chat não me pareceu interessante para gerenciar os milhares de arquivos que seriam gerados. Mas o Telegram é uma ótima opção caso você não tenha outras alternativas de cloud.
 </br>
 </br>
 
 - Google Drive
+</br>
 Sem duvidas a melhor opção considerando todas as qualidades que o google drive possui. O player de vídeo é excelente e é muito simples gerenciar os arquivos, fazer download e compartilhar, acessível de qualquer lugar.
 </br>
 Porém... O espaço reduzido de apenas 15GB em uma conta Free é um problema, já que em meus testes, apenas 12h de gravação já ocupava 13GB em disco.
@@ -39,6 +41,7 @@ Cogitei usar os Team Drives que tem de graça pela internet, mas por ser um arma
 </br>
 
 - OneDrive
+</br>
 Chegamos a opção que uso atualmente, consegue ter uma boa gerencia de arquivos, um player agradável, e bastante espaço disponível (usando uma conta Dev que fornece 5TB).
 </br>
 Unica critica a esse cloud é que a API para enviar os arquivos tem upload lento e precisa fazer um verdadeiro malabarismo pra conseguir gerar os tokens de acesso (que são 2).
@@ -46,6 +49,7 @@ Unica critica a esse cloud é que a API para enviar os arquivos tem upload lento
 </br>
 
 - Rclone (O canivete suíço dos cloud storage)
+</br>
 Tem uma adaptação no código para usar o rclone caso você queira usar outra cloud / storage para guardar os arquivos mp4, mas pra isso você vai precisar fazer as modificações e adaptações, o código desse projeto está adaptado para usar o OneDrive via rclone e via api oficial.
 
 </br>
