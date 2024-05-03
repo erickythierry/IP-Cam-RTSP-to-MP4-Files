@@ -115,7 +115,22 @@ O projeto pode ser executado com Docker ou com PM2 e está adaptado para funcion
 </br>
 </br>
 
-### Funcionando:
+### Funcionando no Termux:
 
+#### Estou executando esse projeto em um Moto g7 play via Termux (celular parado sem uso e com baixissimo consumo de energia)
 
+<imagem>
 
+</br>
+</br>
+</br>
+
+<imagem>
+Exemplo de arquivos salvos no OneDrive
+
+</br>
+</br>
+</br>
+
+<imagem>
+Exemplo de arquivos salvos no OneDrive
